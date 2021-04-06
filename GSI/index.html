@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/logo.png">
+	<title>ГазСтройИнвест</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<script src="js/jquery.vide.min.js"></script>
+  <!-- jQuery 1.8 or later, 33 KB -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	</head>
+<body>
+
+	<!-- Главная страница -->
+	<section class="main"data-vide-bg="video/main-vide-bg.mp4" data-vide-options="loop: true, muted: true, position: 0% 0%">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="header-logo">
+						<img src="img/site_logo.png" alt="ГазСтройИнвест">
+					</div>
+				</div>
+				<div class="col-md-4 offset-4 col-sm-12">
+						<div class="phone">
+							<img src="img/phone-icon.png" alt="Телефон:">
+							<a class=phone-link href="tel:++7 347 200 09 00"> +7 347 200 09 00</a>
+						</div>
+						<div class="email">
+							<img src="img/email-icon.png" alt="Почта:">
+							<a href="mailto: info@gsi-ufa.ru">info@gsi-ufa.ru</a>
+						</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-sm-12">
+					<div class="main-title">
+  						<p class=main-subtitle>Мы предлагаем Вам обширный комплекс услуг!</p>
+  						<p class=main-fact>Каждый проект - наша гордость!</p>
+ 					</div>
+				</div>
+				<div class="col-md-4 offset-md-3 col-sm-12">
+					<div class="main-form">
+						<h2 class=form-header><strong>Закажите обратный звонок</strong>
+						</h2>
+						<form class="form" action="#">
+							<!-- Поля для ввода -->
+							<label class="main-form-label" for="#">Ваше имя</label>
+							<input class="form-input" type="text">
+							<label class="main-form-label" for="#">Номер телефона</label>
+							<input class="form-input" type="text">
+							<!-- Кнопка формы -->
+							<button class="form-btn button" type="submit">Оставьте заявку</button>
+  							<small>Наши специалисты свяжутся с Вами</small>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Услуги (слайдер) -->
+
+  	<section class="service">
+  		<div class="container">
+  			<h2 class="section-header">
+  				Комплекс предлагаемых услуг
+  			</h2>
+  			<div class="service-slider">
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic1.jpg" type="image/">
+  							<img src="img/service/pic1.jpg" alt="Газоснабжение">
+  						</picture>
+  					</div>
+  					<h3>Газоснабжение</h3>
+  					<p>Проектирование<br> и строительство систем<br> газоснабжения</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic2.jpg" type="image/">
+  							<img src="img/service/pic2.jpg" alt="Котельные">
+  						</picture>
+  					</div>
+  					<h3>Котельные</h3>
+  					<p>Проектирование<br>и монтаж<br>котельных установок</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic3.jpg" type="image/">
+  							<img src="img/service/pic3.jpg" alt="Отопление">
+  						</picture>
+  					</div>
+  					<h3>Отопление</h3>
+  					<p>Проектирование и монтаж<br>систем отопления<br>и теплоснабжения</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic4.jpg" type="image/">
+  							<img src="img/service/pic4.jpg" alt="Тепловые пункты">
+  						</picture>
+  					</div>
+  					<h3>Тепловые пункты</h3>
+  					<p>Полный комплекс услуг<br>по монтажу<br>тепловых пунктов</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic5.jpg" type="image/">
+  							<img src="img/service/pic5.jpg" alt="Водоснабжение">
+  						</picture>
+  					</div>
+  					<h3>Водоснабжение</h3>
+  					<p>Проектирование<br>и монтаж систем<br>водоснабжения</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic6.jpg" type="image/">
+  							<img src="img/service/pic6.jpg" alt="Электроснабжение">
+  						</picture>
+  					</div>
+  					<h3>Электроснабжение</h3>
+  					<p>Электрификация<br>промышленных, жилых<br>и торговых комплексов</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic7.jpg" type="image/">
+  							<img src="img/service/pic7.jpg" alt="Вентиляция">
+  						</picture>
+  					</div>
+  					<h3>Вентиляция</h3>
+  					<p>Монтаж систем<br>вентиляции<br>и кондиционирования</p>
+  				</div>
+  				<div class="service-block">
+  					<div class="service-img">
+  						<picture>
+  							<source srcset="img/service/pic8.jpg" type="image/">
+  							<img src="img/service/pic8.jpg" alt="Пожаротушение">
+  						</picture>
+  					</div>
+  					<h3>Пожаротушение</h3>
+  					<p>Проектирование<br>и монтаж систем<br>пожаротушения</p>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+  	<!-- Преимущества (слайдер) -->
+  	<section class="features">
+  		<div class="container">
+  			<div class="section-header">
+  				<h2>Преимущества работы с нами</h2>
+  			</div>
+  			<div class="features-slider">
+  				<div class="features-block">
+  					<div class="features-img">
+  						<picture>
+  							<source srcset="img/features/check.jpg" type="image/">
+  							<img src="img/features/check.jpg" alt="Платите по факту">
+  						</picture>
+  					</div>
+  					<h3>ДОСТУПНОСТЬ</h3>
+  					<p>Мы работаем с оборудованием ведущих европейских производителей разной ценовой категории. Мы можем предложить индивидуальную и доступную котельную или инженерную систему по самым низким ценам. У нас нет стандартных решений и типовых проектов, Ваши интересы для нас приоритетны.</p>
+  				</div>
+  				<div class="features-block">
+  					<div class="features-img">
+  						<picture>
+  							<source srcset="img/features/check.jpg" type="image/">
+  							<img src="img/features/check.jpg" alt="Заключаем договор">
+  						</picture>
+  					</div>
+  					<h3>НАДЕЖНОСТЬ</h3>
+  					<p>Наша принципиальная позиция по отношению к клиенту – только надежное и качественное оборудование, проверенное временем и нашими специалистами. Подбирая любое оборудование, мы производим пересчет мощности устанавливаемых агрегатов под реальные условия их эксплуатации. Гарантия на работы и оборудование до 5 лет.</p>
+  				</div>
+  				<div class="features-block">
+  					<div class="features-img">
+  						<picture>
+  							<source srcset="img/features/check.jpg" type="image/">
+  							<img src="img/features/check.jpg" alt="Точно в срок">
+  						</picture>
+  					</div>
+  					<h3>ОТКРЫТОСТЬ</h3>
+  					<p>Мы стараемся дать наиболее полную информацию о всех возможных путях решениях поставленной Вами задачи. Подробное, детализированное коммерческое предложение с учетом всех накладных и скрытых расходов поможет Вам точно рассчитать необходимый бюджет на покупку и монтаж инженерных систем и оборудования. По завершению работ возможно обучение технического персонала Заказчика всем нюансам правильной эксплуатации оборудования.</p>
+  				</div>
+  				<div class="features-block">
+  					<div class="features-img">
+  						<picture>
+  							<source srcset="img/features/check.jpg" type="image/">
+  							<img src="img/features/check.jpg" alt="Экономите на материалах">
+  						</picture>
+  					</div>
+  					<h3>ПРОФЕССИОНАЛЬНОСТЬ</h3>
+  					<p>Наши сотрудники постоянно проходят обучение на семинарах повышения квалификации, а так же стажируются на заводах компаний-производителей оборудования. Все мероприятия в комплексе позволяют нам идти в ногу со временем и активно реагировать на любые изменения в сферах проектирования, подбора оборудования, расчета, и монтажа инженерных систем.</p>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+    <!-- О компании в цифрах (анимированный счетчик) -->
+
+    <section class="numbers benefits">
+      <div class="container benefits-inner">
+        <div class="section-header">
+          <h2>О компании в цирфах</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <div class="benefits-element">
+              <img src="img/numbers/team.png" alt="Наша команда" class="benefits-icon">
+              <p class="benefits-number">40</p>
+              <p class="benefits-title">высококвалифицированных<br>специалистов</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="benefits-element">
+              <img src="img/numbers/time.png" alt="В сфере строительства" class="benefits-icon">
+              <p class="benefits-number">13</p>
+              <p class="benefits-title">лет работы в<br>сфере строительства</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="benefits-element">
+              <img src="img/numbers/career.png" alt="Сданные объекты" class="benefits-icon">
+              <p class="benefits-number">90</p>
+              <p class="benefits-title">успешно сданных<br>объектов</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="benefits-element">
+              <img src="img/numbers/guarantee.png" alt="Гарантия" class="benefits-icon">
+              <p class="benefits-number">5</p>
+              <p class="benefits-title">лет гарантии<br>на выполненные работы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Реализованные проекты -->
+
+    <section class="objects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Реализованные проекты</h2>
+        </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="fotorama" data-allowfullscreen="true">
+                <img src="img/objects/1.jpg">
+                <img src="img/objects/2.jpg">
+                <img src="img/objects/3.jpg">
+                <img src="img/objects/4.jpg">
+                <img src="img/objects/5.jpg">
+                <img src="img/objects/6.jpg">
+                <img src="img/objects/7.jpg">
+                <img src="img/objects/8.jpg">
+                <img src="img/objects/9.jpg">
+                <img src="img/objects/10.jpg">
+                <img src="img/objects/11.jpg">
+                <img src="img/objects/12.jpg">
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- География работ -->
+
+    <section class="geography">
+      <div class="container">
+        <div class="section-header">
+          <h2>География работ</h2>
+        </div>
+        <div class="object-map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A294340be7c97a638ca3ebd9c6af9b5bfea2f9f25c0ca0ee956463b42540c88b9&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+
+    <section class="contacts">
+      <div class="container">
+        <div class="section-header">
+          <h2>Контакты</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+             <img src="img/site_logo.png" alt="ООО <ГазСтройИнвест>"> 
+            <p class="adress">450022, г.Уфа,<br>ул. Менделеева, 134/2</p>
+            <p>Телефон:<a class=phone-link href="tel:++7 347 200 09 00"> +7 347 200 09 00</a></p>
+            <p>Электронная почта:<a class="mail" href="mailto: info@gsi-ufa.ru"> info@gsi-ufa.ru</a></p>
+          </div>
+          <div class="col-md-6 col-sm-12 offset-0">
+             <div class="contacts-map">
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A72d213f42ffbf64076d005233f4c64b6b7812dabe8c152d184831233a97db7ce&amp;width=auto&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="copyright">Copyright © ООО "ГазСтройИнвест", 2011-2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!-- Подключение slick slider -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="js/jquery.spincrement.min.js"></script>
+
+	<!-- Инициализаци slick slider -->
+	<script>
+
+		/*Слайдер с услугами*/
+
+		$('.service-slider').slick({
+    	    infinite: true,
+    	    slidesToShow: 4,
+    	    prevArrow: '<button class=prev arrow></button>',
+    	    nextArrow: '<button class=next arrow></button>',
+    	    slidesToScroll: 4,
+    	    responsive: [
+    	        {
+    	          breakpoint: 991,
+    	          settings: {
+    	            slidesToShow: 2,
+    	            prevArrow: '<button class=prev arrow></button>',
+    	            nextArrow: '<button class=next arrow></button>',
+    	            slidesToScroll: 2
+    	          }
+    	        },
+    	        {
+    	          breakpoint: 767,
+    	          settings: {
+    	            slidesToShow: 1,
+    	            prevArrow: '<button class=prev arrow></button>',
+    	            nextArrow: '<button class=next arrow></button>',
+    	            slidesToScroll: 1
+    	          }
+    	        }
+    	        // You can unslick at a given breakpoint now by adding:
+    	        // settings: "unslick"
+    	        // instead of a settings object
+    	      ]
+    	  });
+
+		/*Слайдер с преимуществами*/
+
+		$('.features-slider').slick({
+    	    autoplay: true,
+    	    autoplaySpeed: 6000,
+    	    slidesToShow: 2,
+    	    prevArrow: '<button class=prev arrow></button>',
+    	    nextArrow: '<button class=next arrow></button>',
+    	    slidesToScroll: 2,
+    	    responsive: [
+    	        {
+    	          breakpoint: 991,
+    	          settings: {
+    	            slidesToShow: 1,
+    	            prevArrow: '<button class=prev arrow></button>',
+    	            nextArrow: '<button class=next arrow></button>',
+    	            slidesToScroll: 1
+    	          }
+    	        },
+    	        {
+    	          breakpoint: 767,
+    	          settings: {
+    	            slidesToShow: 1,
+    	            prevArrow: '<button class=prev arrow></button>',
+    	            nextArrow: '<button class=next arrow></button>',
+    	            slidesToScroll: 1
+    	          }
+    	        }
+    	        // You can unslick at a given breakpoint now by adding:
+    	        // settings: "unslick"
+    	        // instead of a settings object
+    	      ]
+    	  });
+
+    /*Иницализация анимированного счетчика чисел*/
+
+    $(document).ready(function () {
+     
+        var show = true;
+        var countbox = ".benefits-inner";
+        $(window).on("scroll load resize", function () {
+            if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
+            var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
+            var e_top = $(countbox).offset().top; // Расстояние от блока со счетчиками до верха всего документа
+            var w_height = $(window).height(); // Высота окна браузера
+            var d_height = $(document).height(); // Высота всего документа
+            var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
+            if (w_top + 250 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
+                $('.benefits-number').css('opacity', '1');
+                $('.benefits-number').spincrement({
+                    thousandSeparator: "",
+                    duration: 5000
+                });
+                 
+                show = false;
+            }
+        });
+     
+    });
+	</script>
+</body>
+</html>
