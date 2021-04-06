@@ -1,3 +1,3 @@
-# yarmuxametov_artur.github.io
+# Портфолио
 
-Учебный сайт [Перейти на сайт](yarmuxametov_artur.github.io/study/src/)
+[Сайт "Автоматизированная штукатурка"](yarmuxametov_artur.github.io/study/src/ "Сайт из учебного курса")
