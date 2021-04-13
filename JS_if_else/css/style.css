@@ -1,0 +1,11 @@
+.form {
+    text-align: center;
+}
+
+.new-form {
+    margin-top: 10px;
+    text-align: center;
+    .input-hw1 {
+        display: block;
+    }
+}
