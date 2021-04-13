@@ -4,4 +4,4 @@
 
 [Сайт "ООО ГазСтройИнвест"](yarmuxametovartur.github.io/GSI/ "Сайт ООО ГСИ")
 
-[JS условия"](yarmuxametovartur.github.io/JS_if_else/ "JS условия")
+["JS условия"](yarmuxametovartur.github.io/JS_if_else/ "JS условия")
