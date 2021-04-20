@@ -1,0 +1,20 @@
+.form {
+    text-align: center;
+}
+
+.new-form {
+    margin-top: 10px;
+    text-align: center;
+    .input-hw1 {
+        display: block;
+    }
+}
+
+.clr-form {
+    text-align: center;
+    margin-top: 20px;
+}
+.range-form {
+    text-align: center;
+    margin-top: 20px;
+}
