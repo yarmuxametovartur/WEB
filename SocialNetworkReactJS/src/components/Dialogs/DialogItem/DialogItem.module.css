@@ -1,0 +1,9 @@
+.dialog .active {
+    color: rgb(136, 184, 231);
+    text-decoration: none;
+}
+
+.dialog a {
+    color: white;
+    text-decoration: none;
+}

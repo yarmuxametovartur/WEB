@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+/* .dialogsItems {
+}
+
+.messages {
+} */
+
+.messages button {
+    text-align: center;
+    display: block;
+    height: 25px;
+    width: 50px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 145, 27);
+    border: none;
+    border-radius: 5px;
+}
+.messages textarea {
+    width: 80%;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
